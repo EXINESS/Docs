@@ -5,6 +5,21 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: Ravi;
+  src: url('../../static/fonts/RaviRegular.eot'),
+  url('../../static/fonts/RaviRegular.ttf'),
+  url('../../static/fonts/RaviRegular.woff');
+}
+
+@font-face {
+  font-family: Ravi-bold;
+  src: url('../../static/fonts/RaviBold.eot'),
+  url('../../static/fonts/RaviBold.ttf'),
+  url('../../static/fonts/RaviBold.woff');
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -15,6 +30,9 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: Ravi;
+  --ifm-heading-font-family: Ravi-bold;
+  --ifm-font-family-monospace: Ravi;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
